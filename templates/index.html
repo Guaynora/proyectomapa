@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maps</title>
+</head>
+<style>
+    #map{
+        height:25em;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Marcadores</h1>
+    <section id="map"></section>
+    <script type="text/javascript" src="{{url_for('static',filename='js/map3.js')}}"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXwM_iszN5bvWzMBJp3HsLo5Lg6HiUOOA">
+    </script>
+    
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style2.css')}}"/>
+</body>
+</html>
